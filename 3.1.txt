@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+h1
+{
+background-color:purple;
+}
+table
+{
+background-color:red;
+}
+form
+{
+background-color:yellow;
+}
+</style>
+<title> TAP </title>
+<h1 align ="center"> The Abstract People </h1>
+</head>
+<body>
+<form>
+<table align="center">
+<tr>
+<td>
+Name:
+</td>
+<td>
+<input type="text" placeholder="enter your name" name="">
+</td>
+</tr>
+<tr>
+<td>
+password:
+</td>
+<td>
+<input type="Password" placeholder="enter your password" name="">
+</td>
+</tr>
+<tr>
+<td>
+Gender:
+</td>
+<td>
+<input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female
+<input type="radio" name="Gender">Other
+</td>
+</tr>
+<tr>
+<td>
+Mobile No:
+</td>
+<td>
+<select>
+<option> +90 </option>
+<option> +91 </option>
+<option> +92 </option>
+<option> +93 </option>
+<option> +94 </option>
+<option> +95 </option>
+<option> +96 </option>
+</select>
+<input type="Mobile No" name="">
+</td>
+</tr>
+<tr>
+<td>
+<input type="Submit" value="Submit" name="">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
